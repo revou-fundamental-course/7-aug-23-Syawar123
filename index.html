@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaltik</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" ></link>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <h1>KALKULATOR MATEMATIK</h1>
+    <!-- subheader -->
+    <h3>Hitung Luas Segitiga</h3>
+    <!-- tabel kontainer -->
+    <table>
+        <tr>
+            <td>Alas</td>
+            <td>:</td>
+            <td><input type="number" id="alas"></td>
+        </tr>
+        <tr>
+            <td>Tinggi</td>
+            <td>:</td>
+            <td><input type="number" id="tinggi"></td>
+        </tr>
+        <tr>
+            <td>Luas</td>
+            <td>:</td>
+            <td><input type="number" id="luas" disabled="true" size="5"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="hitung" onClick="hitungLuas()"></td>
+        </tr>
+    </table>
+    
+    <!-- subheader -->
+    <h3>Hitung Keliling Segitiga</h3>
+    <!-- tabel kontainer -->
+    <table>
+        <tr>
+            <td>Sisi A</td>
+            <td>:</td>
+            <td><input type="number" id="sisiA"></td>
+        </tr>
+        <tr>
+            <td>Sisi B</td>
+            <td>:</td>
+            <td><input type="number" id="sisiB"></td>
+        </tr>
+        <tr>
+            <td>Sisi C</td>
+            <td>:</td>
+            <td><input type="number" id="sisiC"></td>
+        </tr>
+        <tr>
+            <td>Keliling</td>
+            <td></td>
+            <td><input type="number" id="keliling" disabled="true" size="5"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="hitung" onClick="hitungKeliling()"></td>
+        </tr>
+    </table>
+</body>
+</html>
